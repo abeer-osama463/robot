@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>اتصل بنا</title>
+    <link rel="stylesheet" href="css/Conect.css">
+</head>
+<body>
+
+     <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Sm3rt</div>
+    <ul>
+      <li><a href="index.html">الرئيسية</a></li>
+      <li><a href="curriculum.html">المناهج</a></li>
+      <!-- <li><a href="teachers.html">المدرسين</a></li> -->
+      <li><a href="courses.html">الكورسات</a></li>
+      <li><a href="creat.html">انضم لنا</a></li>
+      <li><a href="how-to-use.html">كيفيه استخدام المنصه</a></li>
+      <li><a href="contact.html">الاتصال</a></li>
+    </ul>
+    <button class="login-btn" ><a href="login.html">تسجيل دخول</a></button>
+  </nav>
+
+<div class="contact-container">
+
+    <h2>اتصل بنا</h2>
+    <p>لو عندك أي استفسار أو اقتراح، ابعتلنا رسالة</p>
+
+    <form onsubmit="sendMessage(event)">
+        <input type="text" id="name" placeholder="الاسم" required>
+        <input type="email" id="email" placeholder="الإيميل" required>
+        <textarea id="message" placeholder="اكتب رسالتك..." required></textarea>
+
+        <button type="submit">إرسال</button>
+    </form>
+
+    <div class="info">
+        <p>📧 Email: smartsign@gmail.com</p>
+        <p>📞 Phone: 01000000000</p>
+    </div>
+
+</div>
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- Social -->
+        <div class="social">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+        </div>
+
+        <!-- Links -->
+        <div class="links">
+            <a href="#">سياسة الخصوصية</a>
+            <a href="#">تواصل معنا</a>
+            <a href="#">الشروط والأحكام</a>
+        </div>
+
+        <!-- App -->
+        <div class="apps">
+            <p>حمل تطبيق تعليمي</p>
+            <span>App Store</span>
+            <span>Google Play</span>
+        </div>
+
+        <!-- Logo -->
+        <div class="logo">
+            <p>Smart Sign Project</p>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <!-- Bottom -->
+    <div class="bottom">
+        <div class="powered">
+            <p>powered by</p>
+            <span>Smart Team</span>
+        </div>
+
+        <p class="copy">© 2026 جميع الحقوق محفوظة</p>
+    </div>
+
+</footer>
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  
+<script src="js/contact.js"></script>
+
+</html>
