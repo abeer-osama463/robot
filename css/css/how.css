@@ -1,0 +1,36 @@
+@import url(style.css);
+.how {
+    text-align: center;
+    padding: 60px;
+    background: #f5f7fa;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.step {
+    background: white;
+    margin: 15px;
+    padding: 20px;
+    width: 180px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    transition: 0.3s;
+}
+
+.step h3 {
+    background: #0072ff;
+    color: white;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    border-radius: 50%;
+    line-height: 40px;
+}
+
+.step:hover {
+    transform: translateY(-10px);
+}
